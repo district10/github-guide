@@ -45,7 +45,7 @@ Github 使用指南
 
 		
 
-### 使用 Github：前提
+### 使用 Github 前提以及一些常识
 
 - 联网的电脑
 - 网页登入（在网页上也可以很方便的查看别人代码，克隆别人的 repo）
@@ -53,7 +53,8 @@ Github 使用指南
 - 最好学习一下 Markdown 的使用
     - Github 上的 README 文档很多都是用 Markdown 写成（以 `.md` 结尾的文件）
 	- 学习 Markdown 可参考我的博客：[Markdown 简明教程][markdown]
-
+- 文档保存时编码请使用 【UTF-8 无 BOM 格式编码】而不是 Windows 默认的 【ANSI 格式编码】，在 Notepad++ 里如下设置：
+    - ![][ansi-utf8]
 	
 	
 ### Github 教程：Step by Step
@@ -103,3 +104,5 @@ Github 使用指南
 [git-windows]: https://github.com/whudoc/github-guide/blob/master/%E9%85%8D%E7%BD%AE-Windows.md
 [new-repo-guide]: https://github.com/whudoc/github-guide/blob/master/%E6%96%B0%E5%BB%BARepo.md
 [markdown]: http://jianshu.io/p/7bd23251da0a
+
+[ansi-utf8]:  http://whudoc.qiniudn.com/github-guide/img/ansi-utf8.png

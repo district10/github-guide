@@ -88,7 +88,11 @@ git config --global user.email "gnat_tang@yeah.net"
 
 到 Github 里设置 SSH，如下：
 
+【Step 1】
+
 ![][gen-ssh-d]
+
+【Step 2】
 
 ![][gen-ssh-e]
 

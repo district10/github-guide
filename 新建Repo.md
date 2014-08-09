@@ -23,6 +23,7 @@
 ### 【3】
 
 然后把这个 Repo 用 Git 克隆下来，先到如上图右下角，复制 SSH 链接：
+
 `git@github.com:district10/new-repo.git`（复制自己的 Repo 用 SSH，别人的用 https）
 
 然后到本地目录，比如这个 github 文件夹下，右键打开 Git Bash，输入

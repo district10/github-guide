@@ -102,7 +102,7 @@ Github 使用指南
 [liaoxuefeng-git]: http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000
 [github-blocked]: http://whudoc.qiniudn.com/github-guide/img/github-blocked.png
 [git-windows]: https://github.com/whudoc/github-guide/blob/master/%E9%85%8D%E7%BD%AE-Windows.md
-[new-repo-guide]: https://github.com/whudoc/github-guide/blob/master/%E6%96%B0%E5%BB%BARepo.md
+[new-repo-guide]: https://github.com/whudoc/github-guide/blob/master/%E6%96%B0%E5%BB%BA-Repo.md
 [markdown]: http://jianshu.io/p/7bd23251da0a
 
 [ansi-utf8]:  http://whudoc.qiniudn.com/github-guide/img/ansi-utf8.png

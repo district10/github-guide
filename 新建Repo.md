@@ -1,8 +1,14 @@
 # 如何在 Github 上新建一个 Repository
 
+### 【1】
+
 首先去 Github 主页 https://github.com ，在右上角点击 New Repository
 
 ![][new-repo-a]
+
+
+
+### 【2】
 
 然后输入新 Repo 的名称，输入 Repo 说明，选择 Public（Private 要收费），勾选生成 README 文档，选择一个 gitignore 文件（也可不选），选择一个协议，这里我选了 GPL v3，整个如下：
 
@@ -12,9 +18,14 @@
 
 ![][new-repo-c]
 
-然后把这个 Repo 用 Git 克隆下来，先到如上图右下角，复制 SSH 链接：`git@github.com:district10/new-repo.git`（复制自己的 Repo 用 SSH，别人的用 https）
 
-然后到本地目录，比如这个 github 文件夹下，右键打开 Git Bash，输入 `
+
+### 【3】
+
+然后把这个 Repo 用 Git 克隆下来，先到如上图右下角，复制 SSH 链接：
+`git@github.com:district10/new-repo.git`（复制自己的 Repo 用 SSH，别人的用 https）
+
+然后到本地目录，比如这个 github 文件夹下，右键打开 Git Bash，输入
 
 ```bash
 git clone git@github.com:district10/new-repo.git
@@ -29,6 +40,10 @@ git clone git@github.com:district10/new-repo.git
 克隆好后当前文件夹下就有了 `new-repo` 文件夹，如图：
 
 ![][new-repo-f]
+
+
+
+### 【4】
 
 进入文件夹，用 Notepad++ 打开 `README.md` 文件：
 
@@ -47,7 +62,17 @@ git clone git@github.com:district10/new-repo.git
 ![][new-repo-j]
 
 
+### 【完】
 
+这就是在 Github 上新建一个 Repo 的过程。以后修改之后，再
+
+```bash
+git add -A # 与 git add README.md 不同的是，这个命令一次添加所有修改了的文档
+git commit -m "Msg"
+git push
+```
+
+即可把代码同步到 Github。Git 在编写代码时可以很好的控制版本，深入的学习，可以参考 [最好的 Git 进阶材料][progit-learn-more]
 
 
 
@@ -62,3 +87,5 @@ git clone git@github.com:district10/new-repo.git
 [new-repo-h]: http://whudoc.qiniudn.com/github-guide/img/new-repo-h.png
 [new-repo-i]: http://whudoc.qiniudn.com/github-guide/img/new-repo-i.png
 [new-repo-j]: http://whudoc.qiniudn.com/github-guide/img/new-repo-j.png
+
+[progit-learn-more]: http://book.douban.com/review/6465637/

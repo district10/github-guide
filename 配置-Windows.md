@@ -47,6 +47,13 @@ Git 需要安装使用，到 [Git Scm][git-scm] 下载 Windows 版本：Git for 
 
 ![][git-hello]
 
+顺便把自己的用户名和邮箱配置一下：（把用户名和邮箱改成自己 Github 账号对应的用户名邮箱）
+ 
+```bash
+git config --global user.name "district10"
+git config --global user.email "gnat_tang@yeah.net"
+```
+
 3. 克隆一个 Github Repository
 
 克隆（Clone）就是把代码复制到本地，到 Github 上找个 Repo，比如：https://github.com/alols/xcape
@@ -58,8 +65,38 @@ Git 需要安装使用，到 [Git Scm][git-scm] 下载 Windows 版本：Git for 
 
 4. 配置 SSH
 
+首先打开 Git Bash（不论在哪个文件夹都行），然后输入 `cd ~/.ssh` 把目录跳转到自己用户的 .ssh 目录下；（如果失败，则输入 `cd ~ && mkdir .ssh && cd .ssh`）
+
+输入 `ls` （打印目录）应该输出为空；
+
+输入 `ssh-keygen.exe -t rsa -C "your-email"` （换成你的邮箱），回车，有：
+
+![][gen-ssh-a]
+等待你输入目录，直接使用默认的，回车即可；
+
+![][gen-ssh-b]
+等待你输入密码，可以不设置（方便自己），回车两次即可；
+
+然后 SSH 密钥公钥就生成好了，用 ls 看一下（输入 `ls`)，查看 生成的 公钥，并拷贝到剪贴板：
+
+![][gen-ssh-c]
+
+到 Github 里设置 SSH，如下：
+
+![][gen-ssh-d]
+
+![][gen-ssh-e]
+
+保存好就可以了。
 
 
+
+
+### 编辑器选择
+
+Geek 的编辑器有 Emacs，Vim，但是推荐大家使用 Notepad++，这个编辑器简单好用。而且有便携版，解压即可使用。
+
+这里提供一个 Portable 版本下载：http://download.tuxfamily.org/notepadplus/6.6.8/npp.6.6.8.bin.7z
 
 
 
@@ -75,3 +112,9 @@ Git 需要安装使用，到 [Git Scm][git-scm] 下载 Windows 版本：Git for 
 [git-bash-gui]: http://whudoc.qiniudn.com/github-guide/img/gitbash-gitgui.png
 [git-hello]: http://whudoc.qiniudn.com/github-guide/img/git-hello.png
 [git-clone-https]: http://whudoc.qiniudn.com/github-guide/img/git-clone-https.png
+
+[gen-ssh-a]: http://whudoc.qiniudn.com/github-guide/img/gen-ssh-a.png
+[gen-ssh-b]: http://whudoc.qiniudn.com/github-guide/img/gen-ssh-b.png
+[gen-ssh-c]: http://whudoc.qiniudn.com/github-guide/img/gen-ssh-c.png
+[gen-ssh-d]: http://whudoc.qiniudn.com/github-guide/img/gen-ssh-d.png
+[gen-ssh-e]: http://whudoc.qiniudn.com/github-guide/img/gen-ssh-e.png

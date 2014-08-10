@@ -1,6 +1,9 @@
 ﻿Windows 系统 Git 配置
 =====================
 
+
+
+
 ### 下载 Git for Windows
 
 Git 需要安装使用，到 [Git Scm][git-scm] 下载 Windows 版本：Git for Windows。
@@ -35,6 +38,8 @@ Git 需要安装使用，到 [Git Scm][git-scm] 下载 Windows 版本：Git for 
 
 
 
+
+
 ### 使用 Git Bash
 
 【1】 打开 Git Bash
@@ -56,7 +61,7 @@ git config --global user.email "gnat_tang@yeah.net"
 
 【3】 克隆一个 Github Repository
 
-克隆（Clone）就是把代码复制到本地，到 Github 上找个 Repo，比如：https://github.com/alols/xcape
+克隆（Clone）就是把代码复制到本地，到 GitHub 上找个 Repo，比如：https://github.com/alols/xcape
 
 在 Git Bash 里输入 `git clone https://github.com/alols/xcape`，回车，就有：
 
@@ -65,7 +70,7 @@ git config --global user.email "gnat_tang@yeah.net"
 
 【4】 配置 SSH
 
-首先打开 Git Bash（不论在哪个文件夹都行），然后输入 `cd ~/.ssh` 把目录跳转到自己用户的 .ssh 目录下；（如果失败，则输入 `cd ~ && mkdir .ssh && cd .ssh`）
+首先打开 Git Bash（不论在哪个文件夹都行），然后输入 `cd ~/.ssh` 把目录跳转到自己用户的 `.ssh` 目录下；（如果失败，则输入 `cd ~ && mkdir .ssh && cd .ssh`）
 
 输入 `ls` （打印目录）应该输出为空；
 
@@ -75,16 +80,13 @@ git config --global user.email "gnat_tang@yeah.net"
 
 等待你输入目录，直接使用默认的，回车即可；
 
-
 ![][gen-ssh-b]
 
 等待你输入密码，可以不设置（方便自己），回车两次即可；
 
-
 然后 SSH 密钥公钥就生成好了，用 ls 看一下（输入 `ls`)，查看 生成的 公钥，并拷贝到剪贴板：
 
 ![][gen-ssh-c]
-
 
 到 Github 里设置 SSH，如下：
 
@@ -101,11 +103,14 @@ git config --global user.email "gnat_tang@yeah.net"
 
 
 
+
+
 ### 编辑器选择
 
 Geek 的编辑器有 Emacs，Vim，但是推荐大家使用 Notepad++，这个编辑器简单好用。而且有便携版，解压即可使用。
 
 这里提供一个 Portable 版本下载：http://download.tuxfamily.org/notepadplus/6.6.8/npp.6.6.8.bin.7z
+
 
 
 

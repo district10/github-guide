@@ -1,4 +1,4 @@
-﻿Windows 系统 Git 配置
+Windows 系统 Git 配置
 =====================
 
 
@@ -20,7 +20,7 @@ Git 需要安装使用，到 [Git Scm][git-scm] 下载 Windows 版本：Git for 
 
 【2】 下一步，同意 GNU General Public License
 
-【3】 选择组件，默认即可
+【3】 选择组件，把 `Git Bash Here` 和 `Git GUI Here` 注册到注册表
 
 ![][git-setup-a]
 
@@ -107,7 +107,7 @@ git config --global user.email "gnat_tang@yeah.net"
 
 ### 编辑器选择
 
-Geek 的编辑器有 Emacs，Vim，但是推荐大家使用 Notepad++，这个编辑器简单好用。而且有便携版，解压即可使用。
+Geek 的编辑器有 Emacs，Vim，但是推荐大家使用 Notepad++（尤其是在 Windows 上），这个编辑器简单好用。而且有便携版，解压即可使用。
 
 这里提供一个 Portable 版本下载：http://download.tuxfamily.org/notepadplus/6.6.8/npp.6.6.8.bin.7z
 

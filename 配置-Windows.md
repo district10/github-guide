@@ -7,7 +7,7 @@ Windows 系统 Git 配置
 ### 下载 Git for Windows
 
 Git 需要安装使用，到 [Git Scm][git-scm] 下载 Windows 版本：Git for Windows。
-因下载需要翻墙，这里提供一个备份：[Git-1.8.3][git-archive]。版本有点老，但完全够用了。
+因下载需要翻墙，这里提供一个备份：[Git-1.9.5][git-archive]。
 
 
 
@@ -116,7 +116,7 @@ Geek 的编辑器有 Emacs，Vim，但是推荐大家使用 Notepad++（尤其�
 
 
 [git-scm]: http://www.git-scm.com/downloads
-[git-archive]: http://whudoc.qiniudn.com/github-guide/Git-1.8.3-preview20130601.exe
+[git-archive]: http://gnat.qiniudn.com/Git-1.9.5-preview20150319.exe
 [git-for-windows]: http://whudoc.qiniudn.com/github-guide/img/git-for-windows.png
 
 [git-setup-a]: http://whudoc.qiniudn.com/github-guide/img/git-setup-components.png
